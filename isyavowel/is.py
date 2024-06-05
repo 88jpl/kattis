@@ -1,0 +1,15 @@
+txt = input()
+yIs = 0
+yNot = 0
+yIs += txt.count("a")
+yIs += txt.count("e")
+yIs += txt.count("i")
+yIs += txt.count("o")
+yIs += txt.count("u")
+yIs += txt.count("y")
+yNot += txt.count("a")
+yNot += txt.count("e")
+yNot += txt.count("i")
+yNot += txt.count("o")
+yNot += txt.count("u")
+print(str(yNot), str(yIs))
